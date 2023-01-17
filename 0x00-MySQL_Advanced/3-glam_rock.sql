@@ -1,6 +1,6 @@
 -- Script used to check for life span of a band
 
 
-SELECT band_name, formed - split AS lifespan
+SELECT band_name, IFNULL(split, 2023) - formed  AS lifespan
 FROM metal_bands
-WHERE style='Glam rock';
+WHERE style LIKE '%Glam rock%';
