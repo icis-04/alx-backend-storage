@@ -1,0 +1,4 @@
+// lists all databeses in the mongo server
+
+
+show dbs
