@@ -1,0 +1,4 @@
+// used to get the all the documents in  a particular collection
+
+
+db.school.find()
