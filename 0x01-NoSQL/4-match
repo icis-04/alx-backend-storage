@@ -1,4 +1,4 @@
 // finds specific documents in mongo
 
 
-db.school.findOne({name : "Holberton school"})
+db.school.find({name : "Holberton school"})
