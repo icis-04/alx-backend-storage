@@ -1,0 +1,4 @@
+// finds specific documents in mongo
+
+
+db.school.findOne({name : "Holberton school"})
