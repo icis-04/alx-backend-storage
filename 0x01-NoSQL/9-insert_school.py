@@ -3,5 +3,6 @@
 
 
 def insert_school(mongo_collection, **kwargs):
+    """ function that inserts new documents to the collection """
     mongo_collection.insert_one(kwargs)
     return mongo_collection.find({'_id' : kwargs.get('_id')}, {'_id': 1})
